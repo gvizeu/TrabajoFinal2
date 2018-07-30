@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TrabajoFinal2</string>
+    <string name="title_activity_principal">Principal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="import_b">IMPORT B</string>
+    <string name="username">Prueba</string>
+
+    <array name="marcas">
+        <item>ALFA ROMEO</item>
+        <item>ASTON MARTIN</item>
+        <item>AUDI</item>
+        <item>BENTLEY</item>
+        <item>BMW</item>
+        <item>CADILLAC</item>
+        <item>CHEVROLET</item>
+        <item>CHRYSLER</item>
+        <item>CITROEN</item>
+        <item>DACIA</item>
+        <item>DODGE</item>
+        <item>FERRARI</item>
+        <item>FIAT</item>
+        <item>FORD</item>
+        <item>HONDA</item>
+        <item>HYUNDAI</item>
+        <item>JAGUAR</item>
+        <item>JEEP</item>
+        <item>LAMBORGUHINI</item>
+        <item>LANCIA</item>
+        <item>LAND-ROVER</item>
+        <item>LEXUS</item>
+        <item>MASERATI</item>
+        <item>MAZDA</item>
+        <item>MERCEDES-BENZ</item>
+        <item>MINI</item>
+        <item>MITSUBISHI</item>
+        <item>NISSAN</item>
+        <item>OPEL</item>
+        <item>PEUGEOT</item>
+        <item>PORCHE</item>
+        <item>RENAULT</item>
+        <item>ROLLS-ROYCE</item>
+        <item>SAAB</item>
+        <item>SEAT</item>
+        <item>SKODA</item>
+        <item>SMART</item>
+        <item>TESLA</item>
+        <item>TOYOTA</item>
+        <item>VOLKSWAGEN</item>
+        <item>VOLVO</item>
+    </array>
+
+    <array name="estados">
+        <item>NUEVO</item>
+        <item>SEMI-NUEVO</item>
+        <item>NORMAL</item>
+        <item>SEMI-VIEJO</item>
+        <item>VIEJO</item>
+    </array>
+
+</resources>

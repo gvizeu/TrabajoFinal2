@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gonza.trabajofinal2.RegistroActivity">
+
+
+    <TextView
+
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="Nombre :" />
+
+    <EditText
+        android:id="@+id/textNombre"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0" />
+
+    <TextView
+
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="Apellido:" />
+
+    <EditText
+        android:id="@+id/textApellido"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="Nombre de Usuario:" />
+
+    <EditText
+        android:id="@+id/textNick"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="Email: " />
+
+    <EditText
+        android:id="@+id/textEmail"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:text="Contraseña:" />
+
+    <EditText
+        android:id="@+id/textContra"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/botonRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:text="Registrar!"
+        android:onClick="registroUsuario"/>
+
+
+</GridLayout>

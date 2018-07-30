@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gonza.trabajofinal2.FragmentA"
+    android:orientation="vertical"
+    android:background="@color/color1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:text="Marca: "
+        android:textSize="24sp"
+        android:layout_column="0"/>
+
+    <Button
+        android:id="@+id/botonmarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:text="Marcas"
+        android:background="@color/color2"/>
+
+    <TextView
+        android:id="@+id/marcaseleccionada"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+    android:layout_width="106dp"
+    android:layout_height="40dp"
+    android:text="Modelo: "
+    android:textSize="24sp"
+    android:layout_column="0"
+    android:layout_row="1"/>
+
+    <EditText
+
+        android:id="@+id/modelocoche"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:contextClickable="false"
+        android:cursorVisible="false"
+        android:defaultFocusHighlightEnabled="false"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="106dp"
+        android:layout_height="47dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="Estado: "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/estadoselect"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botonestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:background="@color/color2"
+        android:text="Estados" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="Foto del coche:"
+        android:textSize="24sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/botonfoto"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:src="@android:drawable/ic_menu_camera"
+        android:text="camara"
+        android:textSize="14sp"
+        app:backgroundTint="@color/color2" />
+
+    <ImageView
+        android:id="@+id/imagenCochecito"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/common_full_open_on_phone" />
+
+    <Button
+        android:id="@+id/botonpublicar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="7"
+        android:text="Publicar coche"
+        android:layout_columnSpan="4"/>
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>
